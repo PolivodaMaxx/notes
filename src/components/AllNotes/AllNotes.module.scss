@@ -1,0 +1,36 @@
+.note {
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 30px;
+  width: 400px;
+  height: 200px;
+  box-shadow: 1px 1px 20px #433f3f73;
+  border: 1px solid rgba(4, 161, 233, 0.282);
+  border-radius: 10px;
+  background-color: rgba(4, 161, 233, 0.282);
+
+  &:hover{
+    .buttons{
+      opacity:1
+    }
+  }
+}
+
+.buttons {
+  width: 80px;
+  position: relative;
+  background-color: rgba(4, 161, 233, 0.282);
+  left: 300px;
+  top: -30px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+}
+
+// .notes_container {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+// }

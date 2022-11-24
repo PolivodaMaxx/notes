@@ -1,0 +1,41 @@
+.root {
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 30px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fef68a;
+  box-shadow: 1px 1px 20px #433f3f73;
+  border: 1px solid #fef68a;
+  border-radius: 10px;
+
+  textarea {
+    border: none;
+    resize: none;
+    background-color: #fef68a;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.save {
+  background-color: #ffffffda;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+
+  &:hover {
+    background-color: rgba(218, 218, 218, 0.747);
+    cursor: pointer;
+  }
+}

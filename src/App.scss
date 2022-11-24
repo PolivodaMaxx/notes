@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // width: calc(100vw - 200px);
+  // height: calc(100vh - 50px);
+  // transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 20px #433f3f73;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  font-size: 14px;
+
+  &-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.47);
+  }
+  &-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.top-buttons {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filtration {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(25, 118, 210);
+}
+
+.tags {
+  &:hover {
+    cursor: pointer;
+  }
+}
