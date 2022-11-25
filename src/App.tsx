@@ -85,12 +85,12 @@ function App() {
         </div>
       </div>
       <div className="content-main">
+        <AddNote handleAddNote={addNote} />
         <AllNotes
           items={filteredNotes}
           removeNote={removeNote}
           editNote={editNote}
         />
-        <AddNote handleAddNote={addNote} />
       </div>
     </div>
   );
